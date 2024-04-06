@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+
+<div class="nav">
+    <a href=""><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="#name"><i class="fa fa-fw fa-search"></i>Shop</a>
+    <a href="#Email"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+</div>
+
+<h1 style="color: white; font-size: 40px;">Welcome!</h1>
+
+<img class="image1" src="shop.jpg" alt="coffee">
+<p class="text" style="font-size: 28px;">Wanna to check out different kinds of beverages?</p>
+<div class="new">
+    <img src="love.png" width="100px">
+</div>
+<p class="text" style="font-size: 20px;">Fill out the form below to find out your favorite kind..</p>
+<center>
+<div>
+    <div class="content">
+        <form>
+            <label class="text" id="name">Enter Your Name:</label>
+                <input class="text4" type="text" style="margin-bottom: 15px; background-color: #627254; border-color: #627254;">
+            <br>
+            <p class="text">Which one do you prefer?</p>
+        
+            <div class="checkbox-container">
+                <input type="radio" name="temperature" id="hot";>
+                <label for="hot" class="text">Hot</label>
+                <input type="radio" name="temperature" id="cold">
+                <label for="cold" class="text">Cold</label>
+            </div>
+            <div style="padding-top: 20px;">
+                <label class="text">What's your age group?</label>
+                <select class="text4" style="background-color: #627254; border-color: #627254;">
+                    <option>Child</option>
+                    <option>Teen</option>
+                    <option>Youth</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+            
+            <div style="padding-top: 20px;">
+                <label class="text">What's your date of birth?</label>
+                <input class="text4" type="date" style="background-color: #627254; border-color: #627254;">
+            </div>
+
+            <button class="text4"  style="margin-top: 20px; background-color: #627254; color: white; border-color: #627254;">Click to Submit</button>
+
+        </form>
+    </div>
+
+    <div class="table">
+        <table style="width: 50%;" class="text2">
+            <tr>
+                <th>Product name</th>
+                <th>Quantity</th>
+                <th style="width: 20%;">Price</th>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td>200ml</td>
+                <td><a href="#black_cofee">₹239</a></td>
+            </tr>
+            <tr>
+                <td>Black Coffee</td>
+                <td>220ml</td>
+                <td><a href="#Coffee">₹178</a></td>
+            </tr>
+            <tr>
+                <td>Tea</td>
+                <td>200ml</td>
+                <td><a href="#tea">₹223</a></td>
+            </tr>
+    
+        </table>
+    </div>
+
+    </div>
+
+        <div class="container">
+        <img class="image" id="Coffee" src="coffee_image.jpg" alt="coffee">
+            <label class="text1">Rate this coffee: </label>
+                <input type="range" name="rating" class="rating">
+        </div>
+
+        <div class="container">
+        <img class="image" id="black_coffee" src="black_coffee.jpg" alt="black coffee">
+            <label class="text1">Rate this black coffee:</label>
+                <input type="range" name="rating" class="rating">
+        </div>
+
+        <div class="container">
+        <img class="image" id="tea" src="tea.jpg" alt="tea">
+            <label class="text1">Rate this tea:</label>
+                <input type="range" name="rating" class="rating">
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <p class="text">Wanna to make your own coffee?</p>
+    <iframe width="450" height="250" src="https://www.youtube.com/embed/gvPetTPFsZM?si=2moUKqsN1UwK5QOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p class="text">Thanks for Purchasing in our establishment</p>
+    <p class="text" id="Email">Email us at <a href=""><i class="fa fa-fw fa-envelope"></i>coffeebreak@gmail.com</a></p>
+</div>
+
+<p class="By">By Harish</p>
+
+
+</center>
+</body>
+</html>

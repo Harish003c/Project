@@ -1,0 +1,168 @@
+.image{
+    display: flex;
+    border-radius: 2.5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image1{
+    border-radius: 2.5%;
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    border-left: 40%;
+    
+}
+
+html{
+    background-color: black;
+}
+
+@font-face {
+    font-family: Imperator;
+    src: url(Imperator.ttf);
+}
+
+.text{
+    color: white;
+    font-family: Imperator;
+    font-size: 17px;
+}
+
+.text2{
+    color: white;
+    font-family: Imperator;
+    font-size: 15px;
+}
+
+.content{
+    margin: 2%;
+    border-color: white;
+    width: 450px;
+    border-width: 1px;
+    border-style: groove;
+    padding: 2%;
+}
+
+.body{
+    text-align:center;
+}
+
+table, th, td, tr {
+    border: solid 1px white;
+    border-collapse: collapse;
+    color: white;
+}
+
+table{
+    align-items: center;
+}
+
+th{
+    font-size: 20px;
+    padding: 3%;
+    background-color: #627254;
+}
+
+td{
+    padding: 2%;
+}
+
+label{
+    padding-right: 8px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center; 
+}
+
+.text1 {
+    color: white;
+    display: block
+}
+
+a:link{
+    color:gold;
+    text-decoration:none;
+}
+
+a:visited{
+    color:gold;
+}
+a:hover{
+    color: #627254;
+}
+
+.table{
+    padding-bottom: 30px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1655025510212-e5e150aa0a61?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.nav{
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.nav a {
+    float:none;
+    text-align: center;
+    padding: 12px;
+}
+
+h1{
+    font-family: Sallim;
+}
+
+@font-face {
+    font-family: Sallim;
+    src: url(Sallim.ttf);
+}
+
+@font-face {
+    font-family: Yustine Signature;
+    src: url(Yustine\ Signature.ttf);
+}
+
+.By{
+    text-align: center;
+    font-family: Yustine Signature;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+iframe{
+    border-radius: 3%;
+}
+
+.new img{
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.new :hover{
+    transform: scale(1.2);
+}
+
+.text4{
+    color: white;
+    font-family: Imperator;
+}
